@@ -131,7 +131,7 @@ export const skills = [
       {
         name: "Git",
         image:
-          "https://e7.pngegg.com/pngimages/713/558/png-clipart-computer-icons-pro-git-github-logo-text-logo-thumbnail.png",
+          "https://git-scm.com/images/logos/2color-lightbg@2x.png",
       },
       {
         name: "GitHub",
@@ -270,13 +270,13 @@ export const projects = [
       },
       {
         name: "Sai Kumar",
-        img: "https://media.licdn.com/dms/image/D5635AQFU0vyxt-fRKg/profile-framedphoto-shrink_800_800/0/1705072674565?e=1712156400&v=beta&t=jrT2Q2Mci9XWu1ykIjEA356AxVdZ6l2hAidVT7j6alQ",
+        img:"https://media.licdn.com/dms/image/D5635AQFU0vyxt-fRKg/profile-framedphoto-shrink_800_800/0/1705072674565?e=1715234400&v=beta&t=nsxQC8P-jxhEHp1xh-X0bNGvDoV79HoVWqq7XQcJA1g",
         linkedin: "https://www.linkedin.com/in/sai-kumar-pappaka-778928222/",
         github: "https://github.com/mrsaikumar-7",
       },
       {
         name: "Mahesh",
-        img: "https://media.licdn.com/dms/image/D5635AQHY_Wi_CLN_Cw/profile-framedphoto-shrink_800_800/0/1700587804833?e=1712156400&v=beta&t=2GV9cdP8HklbuVU0c9iJwJTgtIRMmyYz8z_48M-BMIQ",
+        img: "https://media.licdn.com/dms/image/D5635AQHY_Wi_CLN_Cw/profile-framedphoto-shrink_800_800/0/1700587804833?e=1715234400&v=beta&t=5Gbonura957_trr02NuE4PkH6S5vJABr_CP-NZcLC8E",
         linkedin: "https://www.linkedin.com/in/mahesh-senapathi-1a6058204/",
         github: "https://github.com/Mahe9041",
       },
@@ -357,6 +357,30 @@ export const projects = [
     github: "https://github.com/Pgangothri/to-do-web-app",
   },
   {
+    id: 7,
+    title: "Word-Search",
+    date: "April 2023",
+    description:
+      "This Project is Developed by Using Django-rest-framework and postgresql database. The user must be authentictated while working on the Website in this token authentication is used in this project and user able to create a paragraphs and searching for the word and the entire project should be dockerized",
+    image:
+      "https://tse4.mm.bing.net/th?id=OIP.-PE3So-rRwwvtbpy-ESxfQHaEt&pid=Api&P=0&h=180",
+    tags: ["Django","Django-rest-framework","Postgresql","Docker"],
+    category: "web app",
+    github: "https://github.com/Pgangothri/wordsearch",
+  },
+  {
+    id: 7,
+    title: "Health-blog",
+    date: "April 2023",
+    description:
+      "This Project is Developed by Using Django.The user must be registered and login After that the user post the title and comment.The User able to edit ,delete the profile and post.Anyone puts the comments for the post.",
+    image:
+      "C:\Users\pgang\OneDrive\Documents\Pictures\Screenshots\Screenshot (101).png",
+    tags: ["Django","Python"],
+    category: "web app",
+    github: "https://github.com/Pgangothri/health-blog",
+  },
+  {
   id: 7,
   title: "Podstream",
   date: "Mar 2024",
@@ -368,6 +392,52 @@ export const projects = [
   category: "web app",
   github: "https://github.com/Pgangothri/podstream",
 },
-
-
+{
+  id: 8,
+  title: "Blog Website",
+  date: "September 2024",
+  description:
+    "Designed and implemented a scalable blogging service using Python, Django, and Elasticsearch, featuring an asynchronous Blog Submission API that queues blog entries for processing and indexing via a Queue Consumer into Elasticsearch. Developed a Search API to query blog titles and texts, with optimized data mapping for efficient search results. The project utilized Docker Compose for containerization, Kubernetes for deployment, and JWT authentication for secure access, along with comprehensive API testing through curl commands.",
+  image:
+    "https://tse3.mm.bing.net/th?id=OIP.kj9_4EE5D5cIFFFLBmw9hwHaDH&pid=Api&P=0&h=180",
+  tags: ["Python","Django","Django Rest API","Docker","Kubernetes","RabbitMQ","Elasticsearch"],
+  category: "web app",
+  github: "https://github.com/Pgangothri/CloudSEK",
+},
+{
+  id: 8,
+  title: "Rental Blog",
+  date: "May 2024",
+  description:
+    "Designed and implemented a scalable blogging service using Python, Django, featuring an Rental App such as user can able to signup and login the page after that the admin able to put the information about flats.Users can able to see and put the comments",
+  image:
+    "https://user-images.githubusercontent.com/60380599/194307119-1bdc292d-c753-44cc-9e74-8d2132aae7c1.png",
+  tags: ["Python","Django","Django Rest API","Docker"],
+  category: "web app",
+  github: "https://github.com/Pgangothri/rental",
+},
+{
+  id: 8,
+  title: "Task Management",
+  date: "Septmember 2024",
+  description:
+    "Developed a full-stack task management application using React.js and Django, featuring kanban-style Work Boards with drag-and-drop functionality, task assignment, and user authentication. Implemented RESTful APIs for task and board management, integrated real-time updates using WebSockets, and designed user roles for managing permissions. Focused on clean code, scalable API design, and a responsive frontend",
+  image:
+    "https://user-images.githubusercontent.com/11765482/52165757-c9407600-272c-11e9-83c9-1d727f79dbad.jpg",
+  tags: ["Javascript","React.js","Node.js","MongoDB"],
+  category: "web app",
+  github: "https://github.com/Pgangothri/ButtonShift",
+},
+{
+  id: 8,
+  title: "Employee Management",
+  date: "August 2024",
+  description:
+    "Developed an employee management panel using the MERN stack (MongoDB, Express.js, React.js, Node.js), with features like login validation, employee creation, editing, and deletion. The application includes server-side validation and client-side validation using JavaScript and jQuery, ensuring proper email format, numeric mobile number validation, and duplicate email checks. Users can upload profile images in jpg/png formats, and the employee list supports search and sorting. Employee data, including fields like name, email, mobile number, designation, and gender, are stored in MongoDB, and real-time updates are managed via React.js and Node.js",
+  image:
+    "https://files.oaiusercontent.com/file-U02HjcGWr1auKApoSlyGcfvX?se=2024-09-23T14%3A58%3A15Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D299%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Dimage.png&sig=BnBkAPPB3l7DlNN8V0ySOarlTz5z2kYbw/6VZnUVF5A%3D",
+  tags: ["Javascript","React.js","Node.js","MongoDB"],
+  category: "web app",
+  github: "https://github.com/Pgangothri/Deals",
+},
 ];
