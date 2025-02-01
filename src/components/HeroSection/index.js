@@ -1,45 +1,64 @@
-import React from 'react'
-import HeroBgAnimation from '../HeroBgAnimation'
-import { HeroContainer, HeroBg, HeroLeftContainer, Img, HeroRightContainer, HeroInnerContainer, TextLoop, Title, Span, SubTitle,SocialMediaIcons,SocialMediaIcon, ResumeButton } from './HeroStyle'
+import React from "react";
+import HeroBgAnimation from "../HeroBgAnimation";
+import {
+  HeroContainer,
+  HeroBg,
+  HeroLeftContainer,
+  Img,
+  HeroRightContainer,
+  HeroInnerContainer,
+  TextLoop,
+  Title,
+  Span,
+  SubTitle,
+  SocialMediaIcons,
+  SocialMediaIcon,
+  ResumeButton,
+} from "./HeroStyle";
 //import HeroImg from '../../images/HeroImage.jpg'
-import Typewriter from 'typewriter-effect';
-import { Bio } from '../../data/constants';
+import Typewriter from "typewriter-effect";
+import { Bio } from "../../data/constants";
 
 const HeroSection = () => {
-    return (
-        <div id="about">
-            <HeroContainer>
-                <HeroBg>
-                    <HeroBgAnimation />
-                </HeroBg>
-                <HeroInnerContainer >
-                    <HeroLeftContainer id="Left">
-                        <Title>Hi, I am <br /> {Bio.name}</Title>
-                        <TextLoop>
-                            I am a
-                            <Span>
-                                <Typewriter
-                                    options={{
-                                        strings: Bio.roles,
-                                        autoStart: true,
-                                        loop: true,
-                                    }}
-                                />
-                            </Span>
-                        </TextLoop>
-                        <SubTitle>{Bio.description}</SubTitle>
-                        <ResumeButton href={Bio.resume} target='display'>Check Resume</ResumeButton>
-                    </HeroLeftContainer>
+  return (
+    <div id="about">
+      <HeroContainer>
+        <HeroBg>
+          <HeroBgAnimation />
+        </HeroBg>
+        <HeroInnerContainer>
+          <HeroLeftContainer id="Left">
+            <Title>
+              Hi, I am <br /> {Bio.name}
+            </Title>
+            <TextLoop>
+              I am a
+              <Span>
+                <Typewriter
+                  options={{
+                    strings: Bio.roles,
+                    autoStart: true,
+                    loop: true,
+                  }}
+                />
+              </Span>
+            </TextLoop>
+            <SubTitle>{Bio.description}</SubTitle>
+            <ResumeButton href={Bio.resume} target="display">
+              Check Resume
+            </ResumeButton>
+          </HeroLeftContainer>
 
-                    <HeroRightContainer id="Right">
+          <HeroRightContainer id="Right">
+            <Img
+              src="https://avatars.githubusercontent.com/u/133559830?s=400&u=07594f526a56872ed6c08266291f57515f9434ea&v=4"
+              alt="hero-image"
+            />
+          </HeroRightContainer>
+        </HeroInnerContainer>
+      </HeroContainer>
+    </div>
+  );
+};
 
-                        <Img src="https://avatars.githubusercontent.com/u/117299815?v=4" alt="hero-image" />
-                    </HeroRightContainer>
-                </HeroInnerContainer>
-
-            </HeroContainer>
-        </div>
-    )
-}
-
-export default HeroSection
+export default HeroSection;
