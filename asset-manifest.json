@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/viswav442/portfolio_new/static/css/main.bf538fe7.css",
+    "main.js": "/viswav442/portfolio_new/static/js/main.1a379f4c.js",
+    "index.html": "/viswav442/portfolio_new/index.html",
+    "main.bf538fe7.css.map": "/viswav442/portfolio_new/static/css/main.bf538fe7.css.map",
+    "main.1a379f4c.js.map": "/viswav442/portfolio_new/static/js/main.1a379f4c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf538fe7.css",
+    "static/js/main.1a379f4c.js"
+  ]
+}
