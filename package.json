@@ -1,7 +1,7 @@
 {
-  "name": "gangothri-portfolio",
+  "name": "viswanath-portfolio",
   "version": "0.1.0",
-  "homepage": "https://Pgangothri.github.io/portfolio",
+  "homepage": "https://github.com/viswav442/portfolio_new",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
@@ -51,6 +51,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.1.1"
+    "gh-pages": "^6.3.0"
   }
 }
